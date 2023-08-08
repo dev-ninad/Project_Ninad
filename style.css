@@ -1,0 +1,145 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+/* responsive  */
+  @media screen and (max-width: 800px){
+    .product-box{
+      width: 60vw;
+    }
+    
+  }
+  @media screen and (min-width: 800px){
+    .container{
+      margin: 10vh 30vw;
+    }
+  }
+  
+
+  .heading-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #19946b;
+    font-size: medium;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: lighter;
+  }
+  
+  .heading-content {
+    margin: 0 10px;
+  }
+
+  .container{
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .cost{
+    font-size: 2vh;
+  }
+  .product-box{
+    width: 30vw;
+    cursor: pointer;
+    height: fit-content;
+  
+    border: #eae6e6 solid 1px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-family: 'Metropolis', sans-serif;
+    font-size: medium;
+  }
+  .displayContent{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+  }
+  .product{
+    line-height: 2px;
+  }
+
+  .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+  }
+
+  .radio-box{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 1vh;
+  }
+
+  .discount{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 6vh;
+    font-family: 'Metropolis', sans-serif;
+  }
+
+
+  .description{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+  }
+  .dropdownBox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 5vw;
+    margin-bottom: 2vw;
+  }
+  .sizeDropdown{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+  }
+  .colorDropdown{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+  } 
+  
+  .shipping{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    color: #007f61;
+    width: 100%;
+  }
+  .shipping p{
+    font-size: 2.5vh;
+  }
+
+  button{
+    width: 100%;
+    height: 18%;
+    background-color: #19946b;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    height: 8vh;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .ad{
+    margin-left: 60%;
+    font-size:14px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+  }
+
+ 
+  
+  
